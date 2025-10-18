@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body,html{
+  background-color: #fff;
+  padding: 20px;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap:70px
+}
+.card{
+  width: 400px;
+  border-radius: 10px;
+  box-shadow:4px 5px 14px;
+ 
+  
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.top p:first-of-type{
+  background-color: rgb(27, 231, 27) ;
+  border-radius: 15px;
+  padding: 5px;
+}
+.center{
+  display: grid;
+  place-items: center;
+  gap: 4px;
+}
+.center img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: -1px 1px 10px -1px
+  s
+}
+.center h2{
+  font-weight: 500;
+}
+.center h4{
+  font-weight: 500;
+}
+.center p{
+  font-size: 15px;
+}
+.center .skills{
+  display: flex;
+  margin: 5px;
+  gap:15px;
+  font-weight: 350;
+  
+}
+.skills p{
+  font-size: 12px;
+  background-color: #fff;
+  border:1px solid #d7d7d7;
+  border-radius: 15px;
+  padding: 5px;
+ 
+}
+.skills p:nth-of-type(4){
+  background-color: rgb(128, 191, 239);
+  padding: 5px 14px 5px 14px;
+}
+.center p:nth-of-type(2){
+  font-weight: 400;
+  
+}
+.dess{
+  margin: 5px;
+  text-align: center;
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 30px;
+  border-top:1.5px solid #d7d7d7;
+
+  
+}
+.bottom h4{
+  font-weight: 400;
+}
