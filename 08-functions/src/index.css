@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.box{
+    margin: 100px;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+}
+.page1{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    height: 100vh;
+}
+.page2{
+    margin: 100vh;
+    height: 100vh;
+}
